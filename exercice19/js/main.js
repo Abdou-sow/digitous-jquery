@@ -1,5 +1,5 @@
-$("body").css("bacground-color", "red")
 $(".btn").click(function(){
-    // $("#text").css('display', 'block')
+    $("disabled").remove();
+    // $("input").remove();
     $("input").css("value","abdou");
-});
+})
